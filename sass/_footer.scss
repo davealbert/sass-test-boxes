@@ -1,0 +1,13 @@
+$footer-color: #272829;
+$footer-accent: #68b5fe;
+
+html, body { height:100%;width:100%; }
+#footer {
+   bottom: 0;
+   height: 10%;
+   width: 100%;
+   background-color: $footer-color;
+   border-top: 1px solid $footer-accent;
+}
+
+

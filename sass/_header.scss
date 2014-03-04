@@ -1,0 +1,27 @@
+$menu-color: #68b5fe;
+$menu-accent: #272829;
+
+html, body { height:100%;width:100%; }
+#header {
+   height: 10%;
+   width: 100%;
+   background-color: $menu-color;
+
+   border-bottom: 1px solid $menu-accent;
+
+   .menu {
+      float: right;
+      padding-top: 2em;
+   }
+   ul {
+    li {
+         float: left;
+         padding-right: 1.5em;
+         list-style-type: none;
+       a {
+         color: white;
+       }
+    }
+   }
+}
+
